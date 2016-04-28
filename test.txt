@@ -1,0 +1,7 @@
+*** Settings ***
+Resource    ${LANG}/message.txt
+
+
+*** Testcases ***
+Hello
+    Log to console    ${HELLO}
